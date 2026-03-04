@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,50 +15,131 @@ body {
     margin: 0 auto;
     height: 100%;
     flex-direction: column;
-    font-weight: 500;
     font-size: 35px;
-    line-height: 43px;
-    color: black;
     background: white;
+    width: 1440px;
 }
 
 .header_page {
-    width: 1900px;
-    min-height: 900px;
+    min-height: 1024px;
     background-image: url(image/Фон.jpg);
+    color: white;
 }
 
 .navigation {
   display: flex;
   flex-wrap: wrap; 
-  justify-content: center;
-  min-height: 70px;
-  padding-top: 105px;
-  padding-right: 65px;
+  align-items: center;
+  padding-top: 47px;
+  padding-left: 122px;
 }
 
 .logo {
     display: block;
     background-color: black;
+    padding-right: 190px;
 }
 
 .navigation_list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 0px;
     margin: auto 0;
     padding: 0;
-    margin-left: 149px;
     list-style: none;
 }
 
 .navigation_title_main {
     display: block;
     min-width: 200px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
     text-decoration: none;
     color: white;
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+    padding-right: 50px;
 }
+
+.container_page_header {
+    justify-content: space-between;
+    gap: 337px;
+    min-width: 120px
+    }
+
+.header_list {
+    font-family: "Kenia", sans-serif;
+    font-size: 150px;
+    line-height: 150px;
+    width: 412px;
+    height: 264px;
+    padding-left: 115px;
+    padding-top: 164px;
+}
+
+.bottom_header_list {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 175px;
+    padding-left: 122px;
+    font-size: 20px;
+    line-height: 29px;
+    width: 290px;
+    
+}
+
+.phone_header {
+    position: relative;
+    width: 500px;
+    height: 888px;
+}
+
+.phone_iphone {
+    position: relative;
+    right: -750px;
+    z-index: 2;
+    top: -600px;
+}
+
+.phone_cabel {
+    position: absolute;
+    bottom: 300px;
+    right: -735px;
+    height: 158px;
+    z-index: 0;
+}
+
+#page_two {
+    background-color: #D53005;
+    height: 1024px;
+}
+
+.main_header {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 122px;
+    margin-top: 83px;
+    width: 84px;
+    height: 35px;
+    color: white;
+}
+
+.main_buttons {
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(to right, #B13E18, #F3501A);
+}
+
+.image_disc {
+    
+
+    width: 1000px;
+    height: 666.5px;
+}
+
 
