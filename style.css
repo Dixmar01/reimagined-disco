@@ -21,6 +21,10 @@ body {
     width: 1440px;
 }
 
+ul {
+    list-style: none;
+}
+
 .header_page {
     height: 1024px;
     background-image: url(image/Фон.jpg);
@@ -261,3 +265,92 @@ body {
     margin-bottom: 135px;
 }
 
+.info_store {
+    font-family: "Montserrat";
+    text-align: center;
+    width: 431px;
+}
+
+.question_info_store {
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 25px;
+    line-height: 25.6px;
+    width: 419px;
+    height: 28px;
+    padding-bottom: 17px;
+}
+
+.info_download {
+    font-size: 18px;
+    font-weight: 400;
+    width: 431px;
+    height: 110px;
+    padding-left: 19px;
+}
+
+.download_button {
+    color: #000000B2;
+}
+
+.macbook {
+    width: 1168.3248291015625px;
+    height: 685px;
+    position: relative;
+    left: 380px;
+    bottom: 550px;
+    }
+
+.page_footer {
+    height: 536px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+    color: white;
+    margin: auto;
+}
+
+.blocks_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 62px 76px 452px;
+    width: 926px;
+    height: 148px;
+}
+
+.title_block_footer {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    line-height: 44px;
+}
+
+.link_footer {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_logo {
+    font-family: "Kenia", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    width: 138px;
+    height: 100px;
+    padding-left: 110px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.footer_text {
+    display: flex;
+    padding-left: 106px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 10px;
+    gap: 99px;
+    text-align: left;
+    line-height: 18,29px;
+    padding-bottom: 74px;
+}
